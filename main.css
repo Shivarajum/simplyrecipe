@@ -1,0 +1,404 @@
+/* home page css */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+h1 ,h2, h3 ,h4, h5 ,h6{
+    font-family: 'Roboto', sans-serif;
+}
+p ,a{
+    font-family: 'Nunito', sans-serif;
+}
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+.nav-bar>ul>h3{
+    margin:  9px 0px;
+
+}
+.ul-li
+{
+    display: flex;
+}
+.ul-li>a>li{
+   margin: 10px 10px 10px 30px;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+   
+    color: black;
+    font-size: 16px;
+}
+.ul-li>a
+{
+    text-decoration: none;
+}
+.ul-li>a>li:hover
+{
+    color: #504acc;
+}
+
+.button>a>.but
+{
+    border-radius: 5px;
+    margin: 20px;
+    padding:  8px 15px;
+    background-color: #504acc;
+    border: none;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.first
+{
+  background:linear-gradient(rgba(35,35,35,0.6),rgba(0,0,0,0.6)) ,url('./foodegg22.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 0px 130px;
+  border-radius: 5px;
+  text-align: center;
+
+
+}
+.second
+{
+ padding-top: 40px;   
+}
+.second>h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.second>h3{
+    font-size: 25px;
+    color: white;
+    margin-top: 0px;
+    font-family: 'Nunito', sans-serif;
+   
+}
+.section1
+{
+    display: flex;
+    margin: 30px 100px ;
+}
+.section1>div{
+    margin-left: 28px;
+    gap: 9%;
+}
+.section1>div>h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.ul1>li
+{
+list-style: none;
+margin: 0px 20px 0px -40px;
+}
+.ul1>li>a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+.ul1>li>a:hover
+{
+    color: #504acc;
+}
+
+.img-div
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.img1>a>img{
+    margin: 0px 6px;
+    width: 280px;
+    border-radius: 5px;
+
+}
+.img1>h4{
+    margin: 4px 0px 0px ;
+    padding: 0px 10px 0px 0px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+
+}
+.img1>p
+{
+    font-size: 13.6px;
+    font-family: 'Nunito', sans-serif;
+}
+footer
+{
+    background-color: #222222;
+    height: 65px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.span1
+{
+    color: #645cff;
+}
+footer>p{
+    padding: 20px;
+    
+}
+
+/* about page css */
+.section-about
+{
+    display: flex;
+    margin: 20px 140px;
+}
+.p-about>p
+{
+    width: 65%;
+    padding: 100px 0px 0px 0px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+     font-weight: 550;
+}
+#but-about
+{
+    margin-left: 0px;
+}
+.div-h5>h5{
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+   text-align: center; 
+}
+#img-div-about
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* tag page css */
+.div-tag1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 60px;
+
+}
+.div-tag1>a{
+    margin: 10px ;
+    padding: 12px 40px ;
+    width: 300px;
+    background-color: #64748b;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 0px;
+}
+.div-tag2{
+   display: flex;
+   /* justify-content: center; */
+   margin-left: 170px;
+   text-align: center;
+}
+.div-tag2>a
+{
+    margin: 10px;
+    padding: 12px 40px ;
+    width: 300px;
+    background-color: #64748b;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 0px;
+    
+}
+.div-tag1>a{
+    text-decoration: none;
+}
+.div-tag2>a{
+    text-decoration: none;
+}
+#footer-tag
+{
+    margin: 300px 0px 0px 0px;
+}
+
+/* tag recipe css */
+#img-div-id
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px 0px 0px ;
+    
+}
+
+/* Recipe Css */
+
+.section-subre
+{
+display: flex;
+}
+.div-img-subre>img
+{
+    border-radius: 5px;
+}
+.info-subre
+{
+    margin: 0px 0px 0px 110px ;
+    width: 40%;
+}
+
+.icons-subre1
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.icons-subre2>img{
+    border-radius: 50%;
+    
+}
+.icons-subre2>h5{
+    margin-bottom: 0px;
+}
+#cooktime2>img{
+    margin-top: -20px;
+}
+p.p-subre
+{
+    font-size: small;
+    font-weight: bold;
+}
+.p-subre>a{
+    background-color: #504acc;
+    color: white;
+    border-radius: 5px;
+    padding:  4px 2px ;
+    margin: 5px ;
+}
+.divvv>h4{
+    font-size: 25px;
+}
+.div12
+{
+    display: flex;
+}
+.line
+{
+    background-color: #cbd5e1;
+    height: 1px;
+    width: 55vw;
+    margin: auto 10px;
+}
+.divvv
+{
+    width: 50%;
+}
+.section-subre2
+{
+    display: flex;
+}
+.ingredeints
+{
+    margin: 0px 0px 0px 100px;
+}
+.ingredeints>h4
+{
+    font-size: 25px;
+}
+.tools
+{
+    margin: 0px 0px 0px 100px;
+}
+.tools>h4{
+    font-size: 25px;
+}
+.first-section
+{
+    margin: 0px 0px 0px 140px;
+}
+.div12>P
+{
+    color: #645cff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.tools>p{
+    color: #645cff;
+    font-size: 16px;
+}
+/* button css */
+.but-sec
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contact-div-h3
+{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 31px;
+font-weight: bold;
+}
+.contact-form
+{
+    background-color: white;
+    padding: 32px 42px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px #e2e8f0;
+    border-radius: 5px;
+}
+input{
+    margin: 10px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    width: 400px;
+    border: 1px solid #e2e8f0;
+    background-color: #f8fafc;
+
+}
+textarea{
+    margin: 10px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid #e2e8f0;
+    background-color: #f8fafc;
+}
+.submit
+{
+    background-color:#645cff;
+    width: 430px;
+    color: white;
+    margin: 10px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    
+
+}
+
+
+
